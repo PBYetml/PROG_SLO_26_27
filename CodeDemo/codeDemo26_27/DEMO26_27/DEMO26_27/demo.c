@@ -2,17 +2,20 @@
 // Project Name 		: Demo26_27
 // File name 			: demo.c
 // Date de cr�ation     : 29.09.2025
-// Date de modification : 15.09.2026
+// Date de modification : 29.09.2026
 //
 // Auteur 				: Philou (Ph. Bovey)
 //
-// Version				: 1.4
+// Version				: 1.5
 //
 // Description          : demo pour SLO1 26-27
-//						  -> types Entier
-//						  -> variable - tableau 
-//						  -> condition - it�ration
-//						  -> appel de fontion - utilisation lib perso + standard 
+//						  -> librairie standardisée : stdio - stdint - stdbool
+//						  -> librairie personnel 
+//						  -> types Entier - Reel - Enumération
+//						  -> define - constante - variable 
+//					      -> instruction - opérande - opérateur
+//						  -> condition - itération
+//						  -> 
 // 
 // Remarques			:         
 //----------------------------------------------------------------------------------//
@@ -26,7 +29,6 @@
 //-- librairie perso --// 
 #include "demo.h"
 
-
 //-- d�finition --// 
 #define ANNEES "26-27"
 #define VERSION 1.1
@@ -38,7 +40,7 @@ const float version = 1.1;
 
 
 //-- déclaration type énumération -- 
-enum demo { OUVERTURE,  FERMETURE = 10, ARRET = 10 , STOP = 12344556789L};
+enum demo { OUVERTURE,  FERMETURE = 10, ARRET , STOP = 12344556789L};
 
 
 //----------------------------------------------------------------------------------//
@@ -55,7 +57,7 @@ void main()
 	//--- Sign� (+/-) ->				// possibilité de mettre le mot :  "signed" devant le type
 	char tension; 						// 1 octet -> en lien avec des les caractère ASCII
 	short Rtot = 0, R1 = 0, R2 = 0; 	// 2 octets 
-	int exemple3 = 1; 					// 4 octets -> int ou long - /!\ en lien avec soit le uC/uP le compilateur / OS			
+	int index = 0, exemple3 = 1; 					// 4 octets -> int ou long - /!\ en lien avec soit le uC/uP le compilateur / OS			
 	long long exemple = 2; 				// 8 octets 
 
 	//--- Non sign� (+) 
@@ -154,7 +156,58 @@ void main()
 		{}
 	}
 
+	//-- condition -> machine d'état 
+	switch (maVariable)
+	{
+		case OUVERTURE : 
+
+			break; 
+		case FERMETURE :
+			break; 
+
+
+		case ARRET: 
+		case STOP: 
+
+			break; 
+
+		default : 
+			break; 
+
+	}
 	//-- itérations 
+
+	///while 
+	// -> pour rester dans la boucle -> condition vrai sortir -> condition fausse
+	while (index > 0) {}
+
+	//-- boucle sans fin
+	while (1) {} 
+	while (3.14) {}
+	while ('a') {}
+	while (1000) {}
+
+	while (0) {}
+
+
+	//do while 
+	do
+	{
+	} while (index > 0);
+
+	//-- compteur --
+	//for ( déclaration ; condition-> true pour rester dans la boucle ; opération (instrution) sur une variable
+	for (index = 10, R1 = 10 ; index > 0; index--)
+	{
+	}
+
+	//for sans fin
+	for (; ; ) {}
+
+
+
+
+
 }
 
 //-- exemple avec la loi d'ohm 
