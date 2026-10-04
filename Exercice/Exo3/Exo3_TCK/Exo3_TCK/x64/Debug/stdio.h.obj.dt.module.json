@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Exo3_TCK\\x64\\Debug\\stdio.obj",
+            "outputs": [
+                "Exo3_TCK\\x64\\Debug\\stdio.h.obj.dt.module.json",
+                "Exo3_TCK\\x64\\Debug\\stdio.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
