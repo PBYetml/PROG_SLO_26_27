@@ -1,11 +1,24 @@
 ﻿  Ex3_V02.c
-C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(31,1): error C2061: syntax error: identifier 'ellipse'
-C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(54,11): error C2065: 'B': undeclared identifier
-C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(55,2): error C2065: 'figure': undeclared identifier
-C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(55,11): warning C4013: 'e_TypeFigure' undefined; assuming extern returning int
-C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(62,34): error C2059: syntax error: ')'
-C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(63,34): error C2059: syntax error: ')'
-C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(64,33): error C2059: syntax error: ')'
-C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(65,32): error C2059: syntax error: ')'
-C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(66,43): error C2059: syntax error: ')'
-C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(47,19): warning C4305: 'initializing': truncation from 'int' to 'int16_t'
+C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(55,9): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(56,11): error C2063: 'e_TypeFigure': not a function
+C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(65,27): warning C4474: 'printf' : too many arguments passed for format string
+      C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(65,27):
+      placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  
+C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(66,28): warning C4474: 'printf' : too many arguments passed for format string
+      C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(66,28):
+      placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  
+C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(67,27): warning C4474: 'printf' : too many arguments passed for format string
+      C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(67,27):
+      placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  
+C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(68,27): warning C4474: 'printf' : too many arguments passed for format string
+      C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(68,27):
+      placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  
+C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(69,35): warning C4474: 'printf' : too many arguments passed for format string
+      C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(69,35):
+      placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  
+C:\Users\Gamer\Documents\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo3\Exo3_TCK\Ex3_V02.c(48,19): warning C4305: 'initializing': truncation from 'int' to 'int16_t'

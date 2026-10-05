@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Exo3_TCK.vcxproj" />
+  <Project Path="Exo3_TCK.vcxproj" Id="278e1a83-1573-4a98-9c4f-0542f2313961" />
 </Solution>

@@ -27,10 +27,10 @@ const double PI = 3.14159;
 
 typedef enum
 {
-cercle
-ellipse
-carre
-rectangle
+cercle,
+ellipse,
+carre,
+rectangle,
 triangle
 } e_TypeFigure;
 
@@ -42,6 +42,7 @@ int main(void)
 	double surface;
 	double rayon;
 	char lettre;
+	int8_t figure;
 	
 	int16_t tension;
 	int16_t BigVal = 0x12345678; 
@@ -51,7 +52,7 @@ int main(void)
 	// ------------
 
 	tension = VMAX - 500;
-	lettre = B ;
+	lettre = "B";
 	figure = e_TypeFigure(2);
 	rayon = 8.5;
 	surface = rayon * rayon * PI;
@@ -59,11 +60,13 @@ int main(void)
 
     
 	// Affichages pour controle
-	printf ("Tension = tension \n", );
- 	printf ("BigVal =  BigVal \n", );
-	printf ("Lettre  = lettre \n", );
-	printf ("Figure = figure \n", );
-	printf ("Rayon =  Surface = surface \n", );
+
+
+	printf ("Tension =  \n", tension );
+ 	printf ("BigVal =   \n", BigVal );
+	printf ("Lettre  =  \n", lettre );
+	printf ("Figure = e \n", figure );
+	printf ("Rayon =  Surface = \n", surface );
 
   return(0);
 }
