@@ -42,10 +42,10 @@ int main(void)
 	double surface;
 	double rayon;
 	char lettre;
-	int8_t figure;
+	e_TypeFigure figure = carre;
 	
-	int16_t tension;
-	int16_t BigVal = 0x12345678; 
+	int16_t tension = VMAX;
+	uint32_t BigVal = 0x12345678; 
 
 
 	// Affectations
@@ -53,7 +53,6 @@ int main(void)
 
 	tension = VMAX - 500;
 	lettre = "B";
-	figure = e_TypeFigure(2);
 	rayon = 8.5;
 	surface = rayon * rayon * PI;
 
@@ -62,11 +61,11 @@ int main(void)
 	// Affichages pour controle
 
 
-	printf ("Tension =  \n", tension );
- 	printf ("BigVal =   \n", BigVal );
-	printf ("Lettre  =  \n", lettre );
-	printf ("Figure = e \n", figure );
-	printf ("Rayon =  Surface = \n", surface );
+	printf ("Tension =  %d \n", tension );
+ 	printf ("BigVal =  %x  \n", BigVal );
+	printf ("Lettre  =  %c \n", lettre );
+	printf ("Figure = %d \n", figure );
+	printf ("Rayon =  Surface = %d\n", rayon, surface);
 
   return(0);
 }

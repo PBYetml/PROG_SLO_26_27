@@ -24,7 +24,9 @@
 int main(void)
 {
 	// Déclaration cas A
-
+	char16_t A1 = 400;
+	char16_t A2 = 500;
+	char16_t RestA1;
 	// Déclaration cas B
 
 	// Déclaration cas C
@@ -35,8 +37,13 @@ int main(void)
 	printf ("Traitement cas A \n");
 
 	//printf ("ResA1 = A1 * A2 soit  %d * %d = %d \n", );
+	RestA1 = A1 * A2;
+	printf("ResA1 = A1 * A2 soit \n", Rest);
+	printf("ResA1 = A1 * A2 soit %d = RestA1 \n ); 
+
 	//printf ("ResA2 = A1 * A2 soit  %d * %d = %d \n", );
 	
+
 	// Traitement cas B
 	printf ("Traitement cas B \n");
 

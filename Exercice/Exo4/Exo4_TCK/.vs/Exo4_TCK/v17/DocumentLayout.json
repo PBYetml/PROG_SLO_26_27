@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TCK\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo4\\Exo4_TCK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{884A29BD-1745-4DF7-9612-9AF2F35B68D6}|Exo4_TCK.vcxproj|C:\\TCK\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo4\\Exo4_TCK\\Ex4_V2.C||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{884A29BD-1745-4DF7-9612-9AF2F35B68D6}|Exo4_TCK.vcxproj|solutionrelative:Ex4_V2.C||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ex4_V2.C",
+              "DocumentMoniker": "C:\\TCK\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo4\\Exo4_TCK\\Ex4_V2.C",
+              "RelativeDocumentMoniker": "Ex4_V2.C",
+              "ToolTip": "C:\\TCK\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo4\\Exo4_TCK\\Ex4_V2.C",
+              "RelativeToolTip": "Ex4_V2.C",
+              "ViewState": "AgIAABgAAAAAAAAAAAAnwC4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-10-06T08:07:27.688Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

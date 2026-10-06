@@ -1,0 +1,14 @@
+﻿  Ex4_V2.C
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(27,2): error C2065: 'char16_t' : identificateur non déclaré
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(27,11): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'A1'
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(27,11): error C2065: 'A1' : identificateur non déclaré
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(28,2): error C2065: 'char16_t' : identificateur non déclaré
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(28,11): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'A2'
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(28,11): error C2065: 'A2' : identificateur non déclaré
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(29,2): error C2065: 'char16_t' : identificateur non déclaré
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(29,11): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'RestA1'
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(29,11): error C2065: 'RestA1' : identificateur non déclaré
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(40,2): error C2065: 'RestA1' : identificateur non déclaré
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(40,11): error C2065: 'A1' : identificateur non déclaré
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(40,16): error C2065: 'A2' : identificateur non déclaré
+C:\TCK\GitRepo\PROG_SLO_26_27_ES_Perso\Exercice\Exo4\Exo4_TCK\Ex4_V2.C(41,50): error C2059: erreur de syntaxe : ')'

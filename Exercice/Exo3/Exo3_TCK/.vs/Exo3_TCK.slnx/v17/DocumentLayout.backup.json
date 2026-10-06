@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TCK\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo3\\Exo3_TCK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{278E1A83-1573-4A98-9C4F-0542F2313961}|Exo3_TCK.vcxproj|C:\\TCK\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo3\\Exo3_TCK\\Ex3_V02.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{278E1A83-1573-4A98-9C4F-0542F2313961}|Exo3_TCK.vcxproj|solutionrelative:Ex3_V02.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.CppBuild.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
+              "ViewState": "AgIAAL0BAAAAAAAAAAD4v84BAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-10-06T08:32:10.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ex3_V02.c",
+              "DocumentMoniker": "C:\\TCK\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo3\\Exo3_TCK\\Ex3_V02.c",
+              "RelativeDocumentMoniker": "Ex3_V02.c",
+              "ToolTip": "C:\\TCK\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo3\\Exo3_TCK\\Ex3_V02.c",
+              "RelativeToolTip": "Ex3_V02.c",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-10-06T08:02:22.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
