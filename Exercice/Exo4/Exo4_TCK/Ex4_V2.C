@@ -27,33 +27,47 @@ int main(void)
 	char16_t A1 = 400;
 	char16_t A2 = 500;
 	char16_t RestA1;
-	// Déclaration cas B
+	char16_t RestA2;
 
+	// Déclaration cas B
+	
+	short ValB;  // not sure !
+	char HighValB;
+	char LowValB;
 	// Déclaration cas C
+	unsigned char16_t C1 = 0x5555;
+	unsigned char16_t C2 = 0x0F0F;
+	unsigned char16_t ResC;
 
 	// Déclaration cas D
 
+
 	// Traitement cas A
-	printf ("Traitement cas A \n");
+		printf ("Traitement cas A \n");
 
-	//printf ("ResA1 = A1 * A2 soit  %d * %d = %d \n", );
-	RestA1 = A1 * A2;
-	printf("ResA1 = A1 * A2 soit \n", Rest);
-	printf("ResA1 = A1 * A2 soit %d = RestA1 \n ); 
-
-	//printf ("ResA2 = A1 * A2 soit  %d * %d = %d \n", );
+		//printf ("ResA1 = A1 * A2 soit  %d * %d = %d \n", );
+		RestA1 = A1 * A2;
+		printf("ResA1 = A1 * A2 soit = %d \n", RestA1);
 	
 
+		//printf ("ResA2 = A1 * A2 soit  %d * %d = %d \n", );
+		RestA2 = A1 * A2;
+		printf("RestA2" = A1 * A2 soit = %d \n", RestA1);
+
 	// Traitement cas B
-	printf ("Traitement cas B \n");
+		printf ("Traitement cas B \n");
 
 	//printf ("ValB  % HighValB = %2x LowValB = %\n", );
 	
 	// Traitement cas C
-	printf ("Traitement cas C \n");
+		printf ("Traitement cas C \n");
+
+
 
 	//printf ("ResC = %  OU % =  % \n",);
 	//printf ("ResC = %  ET % =  %0 \n",);
+
+
 
 	// Traitement cas D
 
