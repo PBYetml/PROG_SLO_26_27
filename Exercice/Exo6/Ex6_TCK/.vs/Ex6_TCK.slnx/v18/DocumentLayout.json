@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gamer\\Documents\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo6\\Ex6_TCK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3D90F9-06C0-4613-92FF-A75A82ADA8EA}|Ex6_TCK\\Ex6_TCK.vcxproj|C:\\Users\\Gamer\\Documents\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo6\\Ex6_TCK\\Canevas.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C3D90F9-06C0-4613-92FF-A75A82ADA8EA}|Ex6_TCK\\Ex6_TCK.vcxproj|solutionrelative:Canevas.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3D90F9-06C0-4613-92FF-A75A82ADA8EA}|Ex6_TCK\\Ex6_TCK.vcxproj|C:\\Users\\Gamer\\Documents\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo6\\Ex6_TCK\\Ex6_TCK\\AMP.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C3D90F9-06C0-4613-92FF-A75A82ADA8EA}|Ex6_TCK\\Ex6_TCK.vcxproj|solutionrelative:Ex6_TCK\\AMP.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AMP.c",
+              "DocumentMoniker": "C:\\Users\\Gamer\\Documents\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo6\\Ex6_TCK\\Ex6_TCK\\AMP.c",
+              "RelativeDocumentMoniker": "Ex6_TCK\\AMP.c",
+              "ToolTip": "C:\\Users\\Gamer\\Documents\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo6\\Ex6_TCK\\Ex6_TCK\\AMP.c",
+              "RelativeToolTip": "Ex6_TCK\\AMP.c",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-10-25T09:48:06.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Canevas.c",
+              "DocumentMoniker": "C:\\Users\\Gamer\\Documents\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo6\\Ex6_TCK\\Canevas.c",
+              "RelativeDocumentMoniker": "Canevas.c",
+              "ToolTip": "C:\\Users\\Gamer\\Documents\\GitRepo\\PROG_SLO_26_27_ES_Perso\\Exercice\\Exo6\\Ex6_TCK\\Canevas.c",
+              "RelativeToolTip": "Canevas.c",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAuwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-10-25T09:21:39.296Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
