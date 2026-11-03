@@ -1,20 +1,93 @@
-# PROG - Cours de programmation année 2026 - 2027 -> V1.8
-## Infos Pratique - Bonne pratique git
-### Créer un compte sur un serveur GIT => pour l'ES nous utiliserons <span sytle="color:#FF0000;">Github</span>
+# PROG - Cours de programmation année 2026 - 2027 -> V2.12
+
+## Création d'un compte GIT + association machine de dev à votre compte 
+
+1. Créez un compte sur un serveur GIT => pour l'ES nous utiliserons <span sytle="color:#FF0000;">[Github](https://github.com/?locale=fr-fr)</span>
+
+2. Créez un jeton - ***token*** via Github
+	1. -> Settings (dans votre profil)
+	2. -> Developper settings 
+	3. -> Personal access tockens 
+	4. -> Tokens (classic) 
+	5. -> Generate new token (classic)
+		
+		A. -> nom du tocken
+
+		B. -> date d'expiration du token (maximum -> 1 année)
+
+		C. -> [x] coches à placer 
+
+		```
+		-> repo
+		-> workflow (optionnel)
+		-> admin:org
+		-> notifications
+		-> user
+		-> delete_repo
+		-> write:discussion (optionnel)
+		-> project
+		```
+
+		D. -> générer le jeton (***token***) et copier le clé à un endroit sûr 
+
+3. sur votre machine, il faut installer le client github en ligne de commande (cli)
+	1. -> ouvrir un power shell 
+	2. -> taper la commande suivante (:warning -> il faut avoir les droits d'admin de la machine) : 
+
+	`winget install --id GitHub.cli --source winget`  
+
+	3. -> fermer la fenête du powershell pour que l'installation soit prise en compte
+
+pour plus d'info voir le dépôt github sur les [commandes cli - github](https://github.com/cli/cli/blob/trunk/docs/install_windows.md) 
+
+4. lier le token à la machine
+	1. -> ouvrir un power shell 
+	2. -> taper la commande suivante : `gh auth login`
+	3. -> sélectionner `> Github.com`
+	4. -> sélectionner `> HTTPS`
+	5. -> à la question, taper : `Y`
+	6. -> sélectionner `> past an authentification token`
+	7. -> insérer votre tocken créé sur Github 
+
+
+
+
+
+
+
 	
-* => vous créez et gérez votre **propre dépôt** (local -> serveur)
+
+
+
+
+
+
 	
-	A. => sur votre machine (local) -> créez un **répertoire vide** où vous voulez
-	```
-	// exemple sous windows 
-	C:
-	> mkdir c:\mesDossierGit\monDepot 
-	```
-	B. => sur votre serveur Git, créer un dépôt (new repository) 
+### Créez et gérez votre **propre dépôt** (local (votre machine) -> serveur (ex: serveur github)
 	
-	C. => lié les deux *en ligne de commande* 
-		* => ouvrir un **shell** 
-		* => placez-vous dans votre répertoire vide créé précédemment :  
+A. sur votre machine (local) -> créez un répertoire où sera votre solution
+
+ci-dessous exemple en ligne de commande sous **windows** pour créer un répertoire 
+
+```Shell 
+# se placer sur le bon disque -> exemple dique C 
+C:
+
+# créer un repertoire à en emplacement voulu 
+mkdir c:\mesDossierGit\monDepotGit  
+```
+
+B. sur votre serveur Git, créer un dépôt -> ***new repository*** 
+B1. donnez un nom à votre dépot 
+B2. en quelques mots décrivez  
+	
+C. lier votre répertoire local à au dépôt Git (en ligne de commande) : 
+
+```Shell 
+# placez-vous dans le bon répertoire
+cd c:\mesDossierGit\monDepotGit  
+
+
 	
 	D. => tapez les ligne de commande suivante : 	
 	```
@@ -36,6 +109,10 @@
 	git commit -m "votre commentaire" 
 	git push 
 	```
+
+# tips -> si vous activez les fichier cachers dans l'explorateur sous windows -> vo 
+	
+	
 * => vous voulez utiliser un dépôt distant (serveur) de quelqu'un 
 	
 	A. => depuis le serveur -> forker le dépôt qui vous intéresse sur votre serveur 

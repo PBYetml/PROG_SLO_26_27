@@ -3,3 +3,7 @@ x64/
 Debug/
 Release/
 *.user
+# dossier(s) ou fichier(s) qui ne doi(ven)t pas être associé au dépot git
+
+# sous visual studio 
+.vs 

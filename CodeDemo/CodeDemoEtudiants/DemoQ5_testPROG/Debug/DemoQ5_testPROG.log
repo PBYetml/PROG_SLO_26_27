@@ -1,3 +1,0 @@
-﻿  Source.c
-C:\PBY\PROJET\PROGRAMMATION\GITHUB\DEMO_SLO23_24\CodeDemo\CodeDemoEtudiants\DemoQ5_testPROG\Source.c(34,1): warning C4305: 'initialisation' : troncation de 'double' à 'float'
-  DemoQ5_testPROG.vcxproj -> C:\PBY\PROJET\PROGRAMMATION\GITHUB\DEMO_SLO23_24\CodeDemo\CodeDemoEtudiants\DemoQ5_testPROG\Debug\DemoQ5_testPROG.exe

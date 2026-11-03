@@ -1,4 +1,0 @@
-﻿  ExmpSimple.c
-C:\Users\mohzitouni\Desktop\prog essai\resumer et execice sur les pointeur\teste pointeur et structure\ExmpSimple.c(71,9): warning C4477: 'printf' : la chaîne de format '%d' nécessite un argument de type 'int', mais l'argument variadique 1 est de type 'size_t'
-C:\Users\mohzitouni\Desktop\prog essai\resumer et execice sur les pointeur\teste pointeur et structure\ExmpSimple.c(71,9): message : utilisez '%zd' dans la chaîne de format
-  teste pointeur et structure.vcxproj -> C:\Users\mohzitouni\Desktop\prog essai\resumer et execice sur les pointeur\x64\Debug\teste pointeur et structure.exe

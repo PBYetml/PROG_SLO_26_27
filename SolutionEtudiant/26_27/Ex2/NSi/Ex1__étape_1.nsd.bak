@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" version="3.25-01" preRepeat="jusqu'à " postFor="à" preReturn="return" postForIn=" en " preWhile="tant que " output="écrire" input="lire" preFor="pour " preExit="exit" preLeave="leave" ignoreCase="true" preForIn="pour " stepFor=", pas = " text="&#34;Ex1  étape 1&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Initialisation des variables&#34;,&#34;ValDec = 0&#34;,&#34;ValQot = 0&#34;,&#34;ValRest = 0&#34;,&#34;ValTab = 8&#34;,&#34;ValBin[ValTab] = {0,0,0,0,0,0,0,0}&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<call text="&#34;ValDec = Lecture clavier&#34;" comment="&#34;&#34;" color="ffff80"></call>
+		<alternative text="&#34;(ValDec = 0 OU ValDec &#60; 256)&#34;" comment="&#34;&#34;" color="ffffff">
+			<qTrue>
+				<while text="&#34;tant que (ValDec &#62; 0)&#34;" comment="&#34;&#34;" color="ff80c0">
+					<qWhile>
+						<instruction text="&#34;ValQot = ValDec / 2&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<instruction text="&#34;ValRest = ValDec % 2&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<instruction text="&#34;Afficher ValQot&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<instruction text="&#34;Afficher ValRest&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<instruction text="&#34;ValDec = ValQot&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<instruction text="&#34;ValTab - 1&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qWhile>
+				</while>
+			</qTrue>
+			<qFalse>
+			</qFalse>
+		</alternative>
+		<call text="&#34;Wait 1ms&#34;" comment="&#34;&#34;" color="ffff80"></call>
+	</children>
+</root>
