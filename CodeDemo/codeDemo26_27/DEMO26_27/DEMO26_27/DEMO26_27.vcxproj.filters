@@ -18,9 +18,15 @@
     <ClCompile Include="demo.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="calculDemo.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="demo.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="calculPerso.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

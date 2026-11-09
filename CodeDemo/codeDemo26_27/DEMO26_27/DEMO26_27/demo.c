@@ -204,20 +204,12 @@ void main()
 	//for sans fin
 	for (; ; ) {}
 
-
-
+	//-- appel des fonction -> lié à l'exercice 7-FE 
 
 
 }
 
-//-- exemple avec la loi d'ohm 
-//--- U = R*i -> i = U/R 
 
-//-- addition de resistance en série 
-//--- Rtot = R1 + R2 + R3... 
-
-//-- mise en parallèle de résistance 
-//--- Rtot = (R1 + R2)/(R1 * R2)  
 
 
 
@@ -239,144 +231,6 @@ void main()
 
 
 
-
-
-	//--> info user 
-	//printf("Code demo - SLO - %s - %2.1f \n", ANNEES, VERSION);
-
-	//--> message user -> info taille 
-	/*printf("\n-> taille d'un booleen %d [o]", );
-	printf("\n-> taille du tableau multidimension : %d [o]", );*/
-
-
-	//--d�finition d'un type enum�ration -> e_machineEtat -> locale --// 
-					  //ETAT1 = 0, ETAT2 = 20, ETAT3 = 21
-	
-
-	//-- utilisation d'une �num�ration globale -> e_FORME --// 
-	
-
-	//-- d�claration structure --// 
-	//-- local //-- type //-- variable 
-	
-
-
-	// -- type		//-- variable 
-	
-
-								//led R, G, B, lum, nb
-
-
-
-	// -- gestion union 
- 
-
-					  //MSB - LSB
-
-
-
-	//-- lecture �criture --// 
-
-
-	//-- passage par r�f�rence --//
-
-
-	//-- MAJ de la variable enum
-
-
-	//--- Reel 
-	//-> taille 4 octets
- 
-
-	// cast implcite -> entier -> reel
-        // _m => metre 
-
-	//-> taille 8 octets 
-
-
-	// -> pour tester 10 case -> soit < 10 ou <= 9
-	// -> remplir un tableau en partant de la lettre 'A'
-
-
-		// -> Ox41 correspond au 'A'	(voir table ASCII) 
-
-		
-		// -> affichage de chaque caract�re 
-
-
-	// -> exemple de r�cuperation d'une valeur d'un tableau 
-
-
-	// -> exemple d'un 
-
-
-
-	//-- une imstruction  est compos� d'op�randes (variable) et d'op�rateur (signe) --//
-	//-- cast => (type)variable 
-
-
-	//-- attention au cast implicite
-
-
-	//-- appel de fct 
-	//--> calcul perimetre ccercle 
-
-
-	//--> calcul d'une moyenne
-
-
-	//-> message user 
- 
-	
-	//--> perim�tre 
-
-
-	//--> moyenne
-
-
-	//-- condition -> expression
-
-
-	//-- condition prioritaire 
-	
-
-		//-- condition secondaire 
-		//
-
-	
-
-	//-- machine �tat --//
-
-		//-- instruction 1... 
-		//-- instruction 2... 
-		
-
-	
-		//-- instruction 1... 
-		//-- instruction 2... 
-
-
-
-
-	//-- it�ration  --// 
-
-	//--> 1 contion  -> 2 execution si vrai 
-	//-- boucle infinie 
-	
-
-
-
-	//-- au minium une fois dans la boucle
-
-
-			
-	//-- pour les compteur --> connait le nombre d'it�ration
-	//-- boucle � l'infini --// 
-	
-
-
-	//->1) initialisation plusieurs variables 2) condition 3) 
-	
 
 
 
