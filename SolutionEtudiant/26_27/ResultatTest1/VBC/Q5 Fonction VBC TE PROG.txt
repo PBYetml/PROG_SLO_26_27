@@ -1,0 +1,10 @@
+	void CutofInfo(long TouteInfo)
+	{
+		char Tension = 0, Courant = 0;
+		unsigned char Puissance = 0, Resistance = 0;
+
+		Tension = TouteInfo >> 24;
+		Courant = TouteInfo >> 16; 
+		Puissance = TouteInfo >> 8;
+		Resistance = TouteInfo; 
+	}

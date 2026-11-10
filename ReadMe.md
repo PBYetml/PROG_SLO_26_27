@@ -1,8 +1,8 @@
-# PROG - Cours de programmation année 2026 - 2027 -> V2.11
+# PROG - Cours de programmation année 2026 - 2027 -> V2.12
 
-## Infos Pratique pour vos dépôts Git 
+## Création d'un compte GIT + association machine de dev à votre compte 
 
-1. Créez un compte sur un serveur GIT => pour l'ES nous utiliserons <span sytle="color:#FF0000;">Github</span>
+1. Créez un compte sur un serveur GIT => pour l'ES nous utiliserons <span sytle="color:#FF0000;">[Github](https://github.com/?locale=fr-fr)</span>
 
 2. Créez un jeton - ***token*** via Github
 	1. -> Settings (dans votre profil)
@@ -16,7 +16,7 @@
 		B. -> date d'expiration du token (maximum -> 1 année)
 
 		C. -> [x] coches à placer 
-
+		
 		```
 		-> repo
 		-> workflow (optionnel)
@@ -28,7 +28,7 @@
 		-> project
 		```
 
-		D. -> générer le jeton (***token***) et copier le clé à endroit sûr 
+		D. -> générer le jeton (***token***) et copier le clé à un endroit sûr 
 
 3. sur votre machine, il faut installer le client github en ligne de commande (cli)
 	1. -> ouvrir un power shell 
@@ -41,17 +41,15 @@
 pour plus d'info voir le dépôt github sur les [commandes cli - github](https://github.com/cli/cli/blob/trunk/docs/install_windows.md) 
 
 4. lier le token à la machine
+	1. -> ouvrir un power shell 
+	2. -> taper la commande suivante : `gh auth login`
+	3. -> sélectionner `> Github.com`
+	4. -> sélectionner `> HTTPS`
+	5. -> à la question, taper : `Y`
+	6. -> sélectionner `> past an authentification token`
+	7. -> insérer votre tocken créé sur Github 
 
-
-	
-
-
-
-
-
-
-	
-### Créez et gérez votre **propre dépôt** (local (votre machine) -> serveur (ex: serveur github)
+## Créez et gérez votre **propre dépôt** (local (votre machine) -> serveur (ex: serveur github)
 	
 A. sur votre machine (local) -> créez un répertoire où sera votre solution
 
@@ -96,7 +94,7 @@ cd c:\mesDossierGit\monDepotGit
 	git add -A 
 	git commit -m "votre commentaire" 
 	git push 
-	```
+```
 
 # tips -> si vous activez les fichier cachers dans l'explorateur sous windows -> vo 
 	
