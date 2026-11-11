@@ -1,0 +1,13 @@
+﻿  Exercice3.c
+C:\NDC\Github\PROG_SLO_26_27\Exercice\Exo3\Exercice3\Exercice3.c(41,9): warning C4047: '=' : les niveaux d'indirection de 'char' et de 'char [2]' sont différents
+C:\NDC\Github\PROG_SLO_26_27\Exercice\Exo3\Exercice3\Exercice3.c(48,9): warning C4477: 'printf' : la chaîne de format '%d' nécessite un argument de type 'int', mais l'argument variadique 1 est de type '__int64'
+      C:\NDC\Github\PROG_SLO_26_27\Exercice\Exo3\Exercice3\Exercice3.c(48,9):
+      utilisez '%lld' dans la chaîne de format
+      C:\NDC\Github\PROG_SLO_26_27\Exercice\Exo3\Exercice3\Exercice3.c(48,9):
+      utilisez '%Id' dans la chaîne de format
+      C:\NDC\Github\PROG_SLO_26_27\Exercice\Exo3\Exercice3\Exercice3.c(48,9):
+      utilisez '%I64d' dans la chaîne de format
+  
+C:\NDC\Github\PROG_SLO_26_27\Exercice\Exo3\Exercice3\Exercice3.c(51,9): warning C4477: 'printf' : la chaîne de format '%d' nécessite un argument de type 'int', mais l'argument variadique 1 est de type 'double'
+C:\NDC\Github\PROG_SLO_26_27\Exercice\Exo3\Exercice3\Exercice3.c(52,9): warning C4477: 'printf' : la chaîne de format '%d' nécessite un argument de type 'int', mais l'argument variadique 1 est de type 'double'
+  Exercice3.vcxproj -> C:\NDC\Github\PROG_SLO_26_27\Exercice\Exo3\Exercice3\x64\Debug\Exercice3.exe
