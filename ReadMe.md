@@ -16,7 +16,7 @@
 		B. -> date d'expiration du token (maximum -> 1 année)
 
 		C. -> [x] coches à placer 
-
+		
 		```
 		-> repo
 		-> workflow (optionnel)
@@ -49,21 +49,7 @@ pour plus d'info voir le dépôt github sur les [commandes cli - github](https:/
 	6. -> sélectionner `> past an authentification token`
 	7. -> insérer votre tocken créé sur Github 
 
-
-
-
-
-
-
-	
-
-
-
-
-
-
-	
-### Créez et gérez votre **propre dépôt** (local (votre machine) -> serveur (ex: serveur github)
+## Créez et gérez votre **propre dépôt** (local (votre machine) -> serveur (ex: serveur github)
 	
 A. sur votre machine (local) -> créez un répertoire où sera votre solution
 
@@ -108,7 +94,7 @@ cd c:\mesDossierGit\monDepotGit
 	git add -A 
 	git commit -m "votre commentaire" 
 	git push 
-	```
+```
 
 # tips -> si vous activez les fichier cachers dans l'explorateur sous windows -> vo 
 	

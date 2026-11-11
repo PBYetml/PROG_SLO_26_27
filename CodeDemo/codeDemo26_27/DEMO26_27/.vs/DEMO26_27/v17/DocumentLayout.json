@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{EEE985BA-D197-4F49-B6CF-F1BBFBED5396}|DEMO26_27\\DEMO26_27.vcxproj|solutionrelative:DEMO26_27\\demo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EEE985BA-D197-4F49-B6CF-F1BBFBED5396}|DEMO26_27\\DEMO26_27.vcxproj|C:\\PBY\\GITHUB\\PROG_Demo_26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\DEMO26_27\\calculDemo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEE985BA-D197-4F49-B6CF-F1BBFBED5396}|DEMO26_27\\DEMO26_27.vcxproj|solutionrelative:DEMO26_27\\calculDemo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE985BA-D197-4F49-B6CF-F1BBFBED5396}|DEMO26_27\\DEMO26_27.vcxproj|C:\\PBY\\GITHUB\\PROG_Demo_26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\DEMO26_27\\calculPerso.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEE985BA-D197-4F49-B6CF-F1BBFBED5396}|DEMO26_27\\DEMO26_27.vcxproj|solutionrelative:DEMO26_27\\calculPerso.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EEE985BA-D197-4F49-B6CF-F1BBFBED5396}|DEMO26_27\\DEMO26_27.vcxproj|C:\\PBY\\GITHUB\\PROG_Demo_26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\DEMO26_27\\demo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EEE985BA-D197-4F49-B6CF-F1BBFBED5396}|DEMO26_27\\DEMO26_27.vcxproj|solutionrelative:DEMO26_27\\demo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -18,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "calculPerso.h",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\PROG_Demo_26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\DEMO26_27\\calculPerso.h",
+              "RelativeDocumentMoniker": "DEMO26_27\\calculPerso.h",
+              "ToolTip": "C:\\PBY\\GITHUB\\PROG_Demo_26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\DEMO26_27\\calculPerso.h",
+              "RelativeToolTip": "DEMO26_27\\calculPerso.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-03T08:25:42.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "calculDemo.c",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\PROG_Demo_26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\DEMO26_27\\calculDemo.c",
+              "RelativeDocumentMoniker": "DEMO26_27\\calculDemo.c",
+              "ToolTip": "C:\\PBY\\GITHUB\\PROG_Demo_26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\DEMO26_27\\calculDemo.c",
+              "RelativeToolTip": "DEMO26_27\\calculDemo.c",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-11-03T08:23:55.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "demo.h",
               "DocumentMoniker": "C:\\PBY\\GITHUB\\PROG_Demo_26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\DEMO26_27\\demo.h",
               "RelativeDocumentMoniker": "DEMO26_27\\demo.h",
@@ -30,8 +64,7 @@
               "RelativeToolTip": "DEMO26_27\\demo.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-09-29T06:43:54.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T06:43:54.299Z"
             },
             {
               "$type": "Document",
@@ -41,7 +74,7 @@
               "RelativeDocumentMoniker": "DEMO26_27\\demo.c",
               "ToolTip": "C:\\PBY\\GITHUB\\PROG_Demo_26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\DEMO26_27\\demo.c",
               "RelativeToolTip": "DEMO26_27\\demo.c",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAAANYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-09-28T09:51:36.771Z",
               "EditorCaption": ""
