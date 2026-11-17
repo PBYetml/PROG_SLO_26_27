@@ -1,4 +1,4 @@
-# PROG - Cours de programmation année 2026 - 2027 -> V2.12
+# PROG - Cours de programmation année 2026 - 2027 -> V2.13
 
 ## Création d'un compte GIT + association machine de dev à votre compte 
 
@@ -49,7 +49,7 @@ pour plus d'info voir le dépôt github sur les [commandes cli - github](https:/
 	6. -> sélectionner `> past an authentification token`
 	7. -> insérer votre tocken créé sur Github 
 
-## Créez et gérez votre **propre dépôt** (local (votre machine) -> serveur (ex: serveur github)
+## Créez votre dépôt local (votre machine) -> MAJ serveur Git (ex: serveur github)
 	
 A. sur votre machine (local) -> créez un répertoire où sera votre solution
 
@@ -64,64 +64,66 @@ mkdir c:\mesDossierGit\monDepotGit
 ```
 
 B. sur votre serveur Git, créer un dépôt -> ***new repository*** 
+
 B1. donnez un nom à votre dépot 
-B2. en quelques mots décrivez  
+
+B2. en quelques mots décrivez en quoi consiste ce dépôt  
 	
 C. lier votre répertoire local à au dépôt Git (en ligne de commande) : 
-
 ```Shell 
 # placez-vous dans le bon répertoire
 cd c:\mesDossierGit\monDepotGit  
-
-
-	
-	D. => tapez les ligne de commande suivante : 	
-	```
-	git init
-	git branch -M votreBranche
-	git remote add origin https://github.com/nomUserGit/votreNomDepotGit.git
-	```
-	
-	E. => pour mettre à jour votre dépôt distant -> placez-vous dans votre répertoire de travail local 
-	```
-	// exemple sous windows - répertoire de travail  
-	C:
-	> cd c:\mesDossierGit\monDepot 
-	```
-	* => 3 commandes à connaitre 
-	
-	```
-	git add -A 
-	git commit -m "votre commentaire" 
-	git push 
 ```
 
-# tips -> si vous activez les fichier cachers dans l'explorateur sous windows -> vo 
+D. tapez les ligne de commande suivante : 	
+```Shell 
+git init
+git branch -M votreBranche
+git remote add origin https://github.com/nomUserGit/votreNomDepotGit.git
+```
 	
+E. pour mettre à jour votre dépôt distant -> placez-vous dans votre répertoire de travail local (votre machine)
+```Shell
+# exemple sous windows - répertoire de travail  
+C:
+cd c:\mesDossierGit\monDepot 
+```
+-> ci-dessous 3 commandes à connaitre  
 	
-* => vous voulez utiliser un dépôt distant (serveur) de quelqu'un 
-	
-	A. => depuis le serveur -> forker le dépôt qui vous intéresse sur votre serveur 
-	```
-	FORK -> creat fork
-	```
-	
-	B.  => sur votre machine (local) -> créez un **répertoire vide** où vous voulez 
-	```
-	// exemple sous windows 
-	C:
-	> mkdir c:\mesDossierGit\monDepot 
-	```
-	
-	C. => associez votre dépot (serveur) -> à votre dépôt local (machine) 
-	```
-	git clone https://github.com/nomUserGit/votreNomDepotGit.git 
-	``` 
+```Shell 
+git add -A 
+git commit -m "votre commentaire" 
+git push 
+```
 
-*=> avec un outil graphqiue* -> sourceTree pour l'ES - GitDescktop - TortoiseGit - etc. 
+## Collaboration 
+vous serez peut-être amener à collaborer avec un collègue ou un enseignant. 
+
+### dépôt existe, mais vous n'êtes pas propriétaire n'y collaborateur :
+A. **Forker** le dépôt existant (serveur github) sur votre espace (serveur github) 
+![action fork](/docGit/forkpicture.jpg)
+
+- fork -> create fork
+- sélectionner l'utilisateur (vous) et le nom de votre nouveau dépot -> possibilité de changer que celui-forker
+
+puis suivre les instructions ci-dessous... 
+
+### dépôt existe, mais vous n'êtes pas propriétaire, mais collaborateur : 
+B. sur votre machine (local) -> créez un **répertoire vide** où vous voulez placer le dépôt  
+```Shell
+# exemple sous windows 
+C:\ 
+mkdir c:\mesDossierGit\monDepot 
+```
+	
+C. associez votre dépot ou celui avec lequel vous allez collaborer (serveur) à votre répertoire local (machine)
+
+``` Shell
+git clone https://github.com/nomUserGit/votreNomDepotGit.git 
+``` 
 
 ## Suivi des exercices 
----
+
 
 | Exercice \ Initial Etudiant | **[YAD](https://github.com/TheBigYA)** | **[SAR](https://github.com/Simaugs)** | **[VBC](https://github.com/Valentin-Blanc)** | **[TBT](https://github.com/Thobrechet)** | **[MCN](https://github.com/Maraph)** | **[TCK](https://github.com/Tyuz3)** | **[NDC](https://github.com/ItzNicolo)** | **[GFE](https://github.com/Giome)** |**[GFR](https://github.com/Kinao27)** |**[GMO](https://github.com/Ninja404-coder)** | **[NRN](https://github.com/NonoAndDuck)** | **[BSC](https://github.com/Benji1920)** | **[NAM](https://github.com/Noe-Alam)** | **[NTN](https://github.com/NicoTf40)** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|  
