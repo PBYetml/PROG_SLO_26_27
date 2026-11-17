@@ -1,38 +1,34 @@
 //-----------------------------------------------------------------------------------//
-// Project Name 		: Demo25_26
+// Project Name 		: Demo26_27
 // File name 			: demo.c
-// Date de création 	: 29.09.2025
-// Date de modification : 15.12.2025
+// Date de crï¿½ation    : 29.09.2025
+// Date de modification : 14.09.2026
 //
 // Auteur 				: Philou (Ph. Bovey)
 //
-// Version				: 1.3
+// Version				: 1.4
 //
-// Description          : demo pour SLO1 25-26
+// Description          : demo pour SLO1 26-27
 //						  -> type 
 //						  -> variable - tableau 
-//						  -> condition - itération
+//						  -> condition - itï¿½ration
 //						  -> appel de fontion - utilisation lib perso + standard 
 // 
-// Remarques			: une constante numérique entière -> ex 10 prend 4 octets 
-//						  une constante numérique réelle -> ex 3.14 prend 8 octets             
+// Remarques			:         
 //----------------------------------------------------------------------------------//
 
 //-- librairie standard --// 
-	// lib pour les entrée - sortie (console - lecture clavier)
-	// lib pour le entier normalisé 
+	// lib pour les entrï¿½e - sortie (console - lecture clavier)
+	// lib pour le entier normalisï¿½ 
 	// lib pour le type bool 
-	// pour la gestion des chaine de caractère
+	// pour la gestion des chaine de caractï¿½re
 
 //-- librairie perso --//  
 
 
-//-- définition --// 
+//-- dï¿½finition --// 
 #define ANNEES "25-26"
 #define VERSION 1.1
-
-
-//-- définition structure local par rapport au fichier --// 
 
 
 //-- constante gloable --// 
@@ -40,72 +36,118 @@
 
 //----------------------------------------------------------------------------------//
 //-- nom fct : main
-//-- paramètre entrée : -
-//-- paramètre sortie : - 
-//-- paramètre IN-OUT : - 
-//-- description : programme principal =>
+//-- paramï¿½tre entrï¿½e : -
+//-- paramï¿½tre sortie : - 
+//-- paramï¿½tre IN-OUT : - 
+//-- description : programme principal 
 //----------------------------------------------------------------------------------//
-void main()
-{
-	//-- constante --// 
-	//-- reel 
-	//-- à éviter -> si possible -> raison gestion mémoire 
-	/*const float PI_v1 = 3.14;
-	const float FOIX_2_2 = 2;*/
+
 
 	//-- variables --//
 	//--- Entier Standard 
-	//--- Signé (+/-)
+	//--- Signï¿½ (+/-)
 		// 1 octet
 		// 2 octets 
 		// 4 octets			
 		// 8 octets 
 	
-	//-- tabeau entier de 1o
-		// 10 octet
+	//--- Non signï¿½ (+) 
+		// 1 octet
+		// 2 octets 
+		// 4 octets			
+		// 8 octets 
 
-	//-- tableau entier de 2 octets 
+	//--- Entier Notrmalisï¿½ -> librairie ???
+		//--- Signï¿½ (+/-)
+		// 1 octet
+		// 2 octets 
+		// 4 octets			
+		// 8 octets 
+
+	//--- Non signï¿½ (+) 
+		// 1 octet
+		// 2 octets 
+		// 4 octets			
+		// 8 octets 
+
+
+
+
+	//--- autre(s)
+
+	//---
+
+
+	//--- RÃ©el 
+		// 4 octets 
+		// 8 octets 
 	
 
-	//--- Non signé (+) 
-		// 1 octet
-		// 2 octets 
-		// 4 octets			
-		// 8 octets 
 
 
-	//--- Entier Notrmalisé -> librairie stdint.h 
-		//--- Signé (+/-)
-		// 1 octet
-		// 2 octets 
-		// 4 octets			
-		// 8 octets 
+	
+	//-- appel de fonction 
+	//--- fct -> Affichage utilisateur 
 
-	//--- Non signé (+) 
-		// 1 octet
-		// 2 octets 
-		// 4 octets			
-		// 8 octets 
+	//--- fct -> taille variable - constante - autre 
 
-	//-- type entier --//
-			// 1 octet
+
+	//-- opÃ©rateur mathÃ©matique 
+
+	//-- opÃ©rateur logique -> bit Ã  bit 
+
+	//-- opÃ©rateur de dÃ©calage
+
+	//-- oprÃ©ateur relationnels (condition)
+
+	// cast implicite 
+
+	// cast explicite 
+
+	//-- condtion - selection 
+
+	//-- itÃ©rations 
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	//--> info user 
-	printf("Code demo - SLO - %s - %2.1f \n", ANNEES, VERSION);
+	//printf("Code demo - SLO - %s - %2.1f \n", ANNEES, VERSION);
 
 	//--> message user -> info taille 
-	printf("\n-> taille d'un booleen %d [o]", );
-	printf("\n-> taille du tableau multidimension : %d [o]", );
+	/*printf("\n-> taille d'un booleen %d [o]", );
+	printf("\n-> taille du tableau multidimension : %d [o]", );*/
 
 
-	//--définition d'un type enumération -> e_machineEtat -> locale --// 
+	//--dï¿½finition d'un type enumï¿½ration -> e_machineEtat -> locale --// 
 					  //ETAT1 = 0, ETAT2 = 20, ETAT3 = 21
 	
 
-	//-- utilisation d'une énumération globale -> e_FORME --// 
+	//-- utilisation d'une ï¿½numï¿½ration globale -> e_FORME --// 
 	
 
-	//-- déclaration structure --// 
+	//-- dï¿½claration structure --// 
 	//-- local //-- type //-- variable 
 	
 
@@ -124,10 +166,10 @@ void main()
 
 
 
-	//-- lecture écriture --// 
+	//-- lecture ï¿½criture --// 
 
 
-	//-- passage par référence --//
+	//-- passage par rï¿½fï¿½rence --//
 
 
 	//-- MAJ de la variable enum
@@ -150,17 +192,17 @@ void main()
 		// -> Ox41 correspond au 'A'	(voir table ASCII) 
 
 		
-		// -> affichage de chaque caractère 
+		// -> affichage de chaque caractï¿½re 
 
 
-	// -> exemple de récuperation d'une valeur d'un tableau 
+	// -> exemple de rï¿½cuperation d'une valeur d'un tableau 
 
 
 	// -> exemple d'un 
 
 
 
-	//-- une imstruction  est composé d'opérandes (variable) et d'opérateur (signe) --//
+	//-- une imstruction  est composï¿½ d'opï¿½randes (variable) et d'opï¿½rateur (signe) --//
 	//-- cast => (type)variable 
 
 
@@ -177,7 +219,7 @@ void main()
 	//-> message user 
  
 	
-	//--> perimètre 
+	//--> perimï¿½tre 
 
 
 	//--> moyenne
@@ -194,7 +236,7 @@ void main()
 
 	
 
-	//-- machine état --//
+	//-- machine ï¿½tat --//
 
 		//-- instruction 1... 
 		//-- instruction 2... 
@@ -207,7 +249,7 @@ void main()
 
 
 
-	//-- itération  --// 
+	//-- itï¿½ration  --// 
 
 	//--> 1 contion  -> 2 execution si vrai 
 	//-- boucle infinie 
@@ -219,14 +261,14 @@ void main()
 
 
 			
-	//-- pour les compteur --> connait le nombre d'itération
-	//-- boucle à l'infini --// 
+	//-- pour les compteur --> connait le nombre d'itï¿½ration
+	//-- boucle ï¿½ l'infini --// 
 	
 
 
 	//->1) initialisation plusieurs variables 2) condition 3) 
 	
-}
+
 
 
 
