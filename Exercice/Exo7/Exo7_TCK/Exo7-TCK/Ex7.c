@@ -16,26 +16,28 @@ int InVar = 5;
 int Temp= 0;
 int main(void)
 {   
-	printf("eyo put yo nmber here yo but yo man keep tween nill and 15 yo: \n" );
+	printf("Number Between [0 & 15]: \n" );
 
 	scanf_s("%d", &InVar);
-	printf("%d\n",InVar);
-
+//	printf("%d\n",InVar);  // to check value was recieved
+	Temp = (InVar - 1) ;
 	for (short ii = 0; ii <= InVar; ii++)
 	{
 
-		for (int spaces = ii; spaces > 0; spaces--)
+		for (short spaces = ii; spaces > 0; spaces--)
 		{
 			printf(" ");
 		}
 
-		for (int stars = (InVar - ii); stars >= 0; stars--)
+		for (short stars = ii; stars >= 0; stars--)
 		{
-
 			printf("*");
 		}
+
 		printf("\n");
+		
 	}
-	
+
+	printf("%d\n", Temp);
 
 }
