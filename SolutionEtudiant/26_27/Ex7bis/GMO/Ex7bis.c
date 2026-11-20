@@ -5,7 +5,10 @@
 //
 // Auteur 				: GMO (Gabriel Moura Oliveira)
 //
-// Description          : Ex7 bis
+// Description          : Permet à l'utilisateur de faire different tests
+//				Test A: Demande à l'utilisateur combien de '*' il faut afficher, min 1 et max 15
+//				Test B: Convertie l'angle en degrés, donné par l'utilisateur, en radian et donne le sinus de l'angle.
+//				Test C: Convertie le valeur binair de l'utilisateur en décimal et en hexadécimal. Valeur binair 16bits
 //
 //
 // Remarques :            lien pour la table ASCII :

@@ -5,7 +5,7 @@
 //
 // Auteur 				: GMO (Gabriel Moura Oliveira)
 //
-// Description          : Exercise 7 bis de prog
+// Description          : Fichier de déclaration des prototypes de test
 //
 //
 // Remarques :            lien pour la table ASCII :
@@ -14,16 +14,16 @@
 //----------------------------------------------------------------------------------//
 
 
-#ifndef Ex7bis_H	// Si la définistion du fichier Ex7.h n'est pas fait
-#define Ex7bis_H	// Défini le fichier Ex7.h
+#ifndef SepEx7bis_H	// Si la définistion du fichier Ex7.h n'est pas fait
+#define SepEx7bis_H	// Défini le fichier Ex7.h
 
 // Define 
-#define PI 3.141592654
+#define PI 3.141592654	// Valeur de PI
 
 //-> prototype 
-void FtestA(char v_NBetoile);
-double FtestB(double v_AngleDegre);
-long BinToDec(char *pChainBin);
+void FtestA(char v_NBetoile);		// Déclaration du prototype test A
+double FtestB(double v_AngleDegre);	// Déclaration du prototype test B 
+long BinToDec(char *pChainBin);		// Déclaration du prototype test C
 
 
-#endif // fin de la définition	#pragma once
+#endif // fin de la définition du .h	

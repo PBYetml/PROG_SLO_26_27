@@ -5,7 +5,7 @@
 //
 // Auteur 				: GMO (Gabriel Moura Oliveira)
 //
-// Description          : Ex7 bis
+// Description          : Contient les fonction des tests de l'Ex7bis
 //
 //
 // Remarques :            lien pour la table ASCII :
