@@ -1,0 +1,10 @@
+﻿  ex6.c
+C:\tbt\ex6\ex6\ex6.c(43,10): warning C4477: 'scanf' : la chaîne de format '%d' nécessite un argument de type 'int *', mais l'argument variadique 1 est de type 'short *'
+      C:\tbt\ex6\ex6\ex6.c(43,10):
+      utilisez '%hd' dans la chaîne de format
+  
+C:\tbt\ex6\ex6\ex6.c(11,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\tbt\ex6\ex6\ex6.c(21,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\tbt\ex6\ex6\ex6.c(43,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\tbt\ex6\ex6\ex6.c(8,9): warning C4101: 'ValB2' : variable locale non référencée
+  ex6.vcxproj -> C:\tbt\ex6\x64\Debug\ex6.exe
